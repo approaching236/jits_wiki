@@ -1,0 +1,66 @@
+# Logfile created on 2014-05-09 10:01:17 -0700 by logger.rb/41954
+E, [2014-05-09T10:01:17.206225 #88065] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/bin/ruby extconf.rb 
+checking for main() in -licui18n... no
+checking for main() in -licui18n... no
+
+
+***************************************************************************************
+*********** icu required (brew install icu4c or apt-get install libicu-dev) ***********
+***************************************************************************************
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/bin/ruby
+	--with-icu-dir
+	--without-icu-dir
+	--with-icu-include
+	--without-icu-include=${icu-dir}/include
+	--with-icu-lib
+	--without-icu-lib=${icu-dir}/
+	--with-icui18nlib
+	--without-icui18nlib
+	--with-icui18nlib
+	--without-icui18nlib
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/gems/charlock_holmes-0.6.9.4 for inspection.
+Results logged to /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/extensions/x86_64-darwin-12/2.0.0-static/charlock_holmes-0.6.9.4/gem_make.out
+
+/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:38:in `block in build'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:232:in `install'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/vgrato/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `load'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `<main>'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/bin/ruby_executable_hooks:15:in `eval'  \n/Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-05-09T10:07:51.959550 #88371]  INFO -- : 0:  charlock_holmes (0.6.9.4) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/charlock_holmes-0.6.9.4.gemspec
+I, [2014-05-09T10:07:52.653583 #88371]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-05-09T10:07:54.178473 #88371]  INFO -- : 0:  github-markdown (0.6.5) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/github-markdown-0.6.5.gemspec
+I, [2014-05-09T10:07:55.123406 #88371]  INFO -- : 0:  posix-spawn (0.3.8) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/posix-spawn-0.3.8.gemspec
+I, [2014-05-09T10:07:55.695298 #88371]  INFO -- : 0:  github-markup (1.1.2) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/github-markup-1.1.2.gemspec
+I, [2014-05-09T10:07:56.265592 #88371]  INFO -- : 0:  mime-types (1.25.1) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/mime-types-1.25.1.gemspec
+I, [2014-05-09T10:07:56.841009 #88371]  INFO -- : 0:  gitlab-grit (2.6.6) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/gitlab-grit-2.6.6.gemspec
+I, [2014-05-09T10:07:56.841417 #88371]  INFO -- : 0:  mini_portile (0.5.3) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/specifications/mini_portile-0.5.3.gemspec
+I, [2014-05-09T10:07:56.841667 #88371]  INFO -- : 0:  nokogiri (1.6.1) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/specifications/nokogiri-1.6.1.gemspec
+I, [2014-05-09T10:07:57.596473 #88371]  INFO -- : 0:  rouge (1.3.4) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/rouge-1.3.4.gemspec
+I, [2014-05-09T10:07:58.219955 #88371]  INFO -- : 0:  sanitize (2.1.0) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/sanitize-2.1.0.gemspec
+I, [2014-05-09T10:07:59.088861 #88371]  INFO -- : 0:  stringex (2.5.2) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/stringex-2.5.2.gemspec
+I, [2014-05-09T10:07:59.662405 #88371]  INFO -- : 0:  gollum-lib (3.0.0) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/gollum-lib-3.0.0.gemspec
+I, [2014-05-09T10:08:00.372723 #88371]  INFO -- : 0:  mustache (0.99.5) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/mustache-0.99.5.gemspec
+I, [2014-05-09T10:08:01.352712 #88371]  INFO -- : 0:  rack (1.5.2) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/rack-1.5.2.gemspec
+I, [2014-05-09T10:08:02.179043 #88371]  INFO -- : 0:  rack-protection (1.5.3) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/rack-protection-1.5.3.gemspec
+I, [2014-05-09T10:08:02.804407 #88371]  INFO -- : 0:  tilt (1.4.1) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/tilt-1.4.1.gemspec
+I, [2014-05-09T10:08:03.871454 #88371]  INFO -- : 0:  sinatra (1.4.5) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/sinatra-1.4.5.gemspec
+I, [2014-05-09T10:08:04.369224 #88371]  INFO -- : 0:  useragent (0.10.0) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/useragent-0.10.0.gemspec
+I, [2014-05-09T10:08:06.503366 #88371]  INFO -- : 0:  gollum (3.0.0) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@jits_wiki/specifications/gollum-3.0.0.gemspec
+I, [2014-05-09T10:08:06.503777 #88371]  INFO -- : 0:  bundler (1.5.1) from /Users/vgrato/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
